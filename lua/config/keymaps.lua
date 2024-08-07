@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>d", "<C-d")
+vim.keymap.set("n", "<Leader>d", "<C-d")
 vim.keymap.set("n", "<Leader>u", "<C-u>")
 vim.keymap.set("n", "<Leader>j", "<C-w>j")
 vim.keymap.set("n", "<Leader>k", "<C-w>k")
