@@ -11,3 +11,7 @@ vim.keymap.set("n", "<Leader>f", ":Files<CR>")
 vim.keymap.set("n", "<Leader>n", ":bn<CR>")
 vim.keymap.set("n", "<Leader>p", ":bp<CR>")
 vim.keymap.set("n", "<Leader>nh", ":nohl<CR>")
+
+-- Insert current datetime (in square brackets)
+vim.keymap.set("n", "<Leader>a", ":pu=strftime('[%Y-%m-%d %T] ')<CR><s-a>")
+
