@@ -16,14 +16,14 @@ return {
                 "dockerls",
                 "html",
                 "eslint",
-                "tsserver",
                 "biome",
                 "lua_ls",
                 "harper_ls",
                 "vacuum",
                 "powershell_es",
                 "sqlls",
-                "yamlls"
+                "yamlls",
+                "gopls"
             }
         })
     end,
